@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 
 	println(
 		"""
-		count = ${ctx.beanDefinitionCount}
+		Bean count = ${ctx.beanDefinitionCount}
 	""".trimIndent()
 	)
 }

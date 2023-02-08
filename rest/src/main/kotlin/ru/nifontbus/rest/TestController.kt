@@ -13,7 +13,7 @@ class TestController(
 
 	@GetMapping("test")
 	fun test(): String? {
-		return processor.getData()
+		return "REST+ " + processor.getData()
 	}
 
 }
